@@ -1,6 +1,5 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import { HelloMessage } from "./components/hello-world";
-import Counter from "./components/counter";
+import Counters from "./components/counters";
 
-ReactDOM.render(<Counter></Counter>, document.getElementById("root"));
+ReactDOM.render(<Counters></Counters>, document.getElementById("root"));
